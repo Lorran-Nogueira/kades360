@@ -1,10 +1,15 @@
 import React from 'react'
-import { HeaderContainer } from './styles'
+import { Criar, HeaderContainer, Nick, Perfil, Search, Title } from './styles'
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <h1>Kades360</h1>
+      <Title>Kades360</Title>
+      <Search></Search>
+      <Perfil>
+        <Criar></Criar>
+        <Nick></Nick>
+      </Perfil>
     </HeaderContainer>
   )
 }
